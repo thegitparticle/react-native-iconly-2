@@ -4,15 +4,9 @@ import { StyleSheet, View, Text } from 'react-native';
 import Iconly2 from 'react-native-iconly-2';
 
 export default function App() {
-  const [result, setResult] = React.useState<number | undefined>();
-
-  React.useEffect(() => {
-    Iconly2.multiply(3, 7).then(setResult);
-  }, []);
-
   return (
     <View style={styles.container}>
-      <Text>Result: {result}</Text>
+      <Iconly2 Name="SearchBold" Color="tomato" Size={50} />
     </View>
   );
 }

@@ -149,5 +149,9 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "react-native-custom-icon": "^0.0.3",
+    "react-native-vector-icons": "^8.1.0"
   }
 }
